@@ -1,0 +1,39 @@
+@import '../variables';
+
+.thanks {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color: $color_primary;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .text {
+    font-weight: 100;
+    color: $color_white;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .link {
+    color: #0e0d0d;
+    background-color: #BEDE67;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #9db950;
+    }
+  }
+}
